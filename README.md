@@ -99,7 +99,7 @@
 
     `-TypeHandlerVersion '1.4' }`
 
-    ![03](C:\Github\Lab_06_Azure\img\03.png)
+    ![03](img/03.png)
 
 ### TASK 2: Configurar la topología de red hub and spoke.
 
@@ -346,7 +346,7 @@ En esta tarea, configuraremos y probaremos el enrutamiento entre las redes virtu
 
 ![16](img/16.png)
 
-29. Hacemos clic en **OK**
+29. Hacemos clic en **OK**.
 
 30. En Azure Portal, volvemos a la hoja  **Network Watcher - Connection troubleshoot**.
 
@@ -367,7 +367,7 @@ En esta tarea, configuraremos y probaremos el enrutamiento entre las redes virtu
 
 32. Hacemos clic en **Check**  y esperamos hasta que se devuelvan los resultados de la verificación de conectividad. Verificamos que el estado sea **Reachable**. Revisamos la ruta de la red y tenemos que tener en cuenta que el tráfico se enrutó a través de **10.60.0.4** , asignado al adaptador de red **az104-06-nic0** . Si el estado es **Unreachable**, debemos detener y luego iniciar az104-06-vm0.
 
-    > **Nota: Tuvimos un problema y nos daba Unrechable cuando intentabamos conectarnos entre la vm2 y la vm3.
+    > Nota: Tuvimos un problema y nos daba Unrechable cuando intentabamos conectarnos entre la vm2 y la vm3.
     >
     > ![25](img/25.png)
     >
